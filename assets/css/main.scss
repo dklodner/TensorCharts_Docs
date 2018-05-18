@@ -20,3 +20,17 @@
 
 // Other vendor styles
 @import "syntax-highlighting/github";
+
+.summary-box{
+    background-color:#e8f0fe;
+    padding: 2em;
+    margin-bottom: 2em;
+    h4{
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    p, ul{
+        margin: 5px;
+    }
+}

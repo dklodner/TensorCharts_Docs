@@ -1,25 +1,43 @@
 - title: Getting Started
   docs:
   - home
-  - quickstart
-  - installation
-  - windows
+  - chart
+  - hotkeys
 
-- title: Account and Billing
+- title: Heatmaps
   docs:
-  - frontmatter
-  - posts
-  - drafts
-  - pages
+  - orderbook_heatmap
+  - trades_heatmap
+  - volume_bars
 
-- title: Customization
+- title: Side panels
   docs:
-  - usage
-  - structure
-  - configuration
+  - orderbook
+  - trades_feed
+  - large_trades_tracker
+  - trades_counters
+
+- title: Studies
+  docs:
+  - volume_profile
+  - line_studies
+  - s_r_levels
+  - counters_ratio
+
+- title: Scripting Module
+  docs:
+  - scripting
+  - data_structures
+  - functions_libraries
+
+- title: Other
+  docs:
+  - drawings
+  - list_of_markets
+  - color_theme
+
 
 - title: Troubleshooting
   docs:
-  - variables
-  - collections
-  - assets
+  - faq
+  - errors

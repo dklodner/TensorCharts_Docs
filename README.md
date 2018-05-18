@@ -187,6 +187,9 @@ Local image from `/assets/posts/` directory:
 External wide image with lightbox:
 ```yaml
 {% include image.html img="https://source.unsplash.com/TT-ROxWj9nA.jpg" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+
+
+{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
 ```
 
 ### Adding table of contents

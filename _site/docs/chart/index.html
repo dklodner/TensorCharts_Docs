@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Chart settings | TensorCharts Manual</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="Chart settings" />
+<meta name="author" content="TensorCharts" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sections in this article" />
+<meta property="og:description" content="Sections in this article" />
+<link rel="canonical" href="http://localhost:4000/docs/chart/" />
+<meta property="og:url" content="http://localhost:4000/docs/chart/" />
+<meta property="og:site_name" content="TensorCharts Manual" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-18T12:07:05+02:00" />
+<script type="application/ld+json">
+{"headline":"Chart settings","dateModified":"2018-05-18T12:07:05+02:00","datePublished":"2018-05-18T12:07:05+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/chart/"},"author":{"@type":"Person","name":"TensorCharts"},"description":"Sections in this article","url":"http://localhost:4000/docs/chart/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/assets/posts/logo.png"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="TensorCharts Manual" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+</head>
+
+    <body>
+
+    <header class="uk-background-secondary">
+    <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-sticky uk-sticky-fixed" style="position: fixed; top: 0px; width: 1904px;">
+        <nav class="uk-navbar-container">
+            <div class="uk-container">
+    <div data-uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="/"><img src="http://localhost:4000/assets/posts/logo.png" alt="Docs"></a>
+
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@m">
+                
+                    
+                    
+                    
+                        <li><a href="/" >Help</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/blog/" >Blog</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/changelog/" >Changelog</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/contact/" >Contact</a></li>
+                    
+                
+            </ul>
+
+            
+            <div>
+                <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                        <input id="navbar-search" class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                    </form>
+                    <ul id="navbar-search-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                </div>
+            </div>
+            <script>
+            SimpleJekyllSearch({
+                searchInput: document.getElementById('navbar-search'),
+                resultsContainer: document.getElementById('navbar-search-results'),
+                noResultsText: '<li>No results found</li>',
+                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                json: '/search.json'
+            });
+            </script>
+            
+
+            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+
+        </div>
+    </div>
+</div>
+
+        </nav>
+    </div>
+</header>
+
+
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed">
+                    
+                    <h5>Getting Started</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/home/">Introduction</a></li>
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/chart/">Chart settings</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/hotkeys/">List of hotkeys</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Heatmaps</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/orderbook_heatmap/">Orderbook heatmap</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/trades_heatmap/">Trades heatmap</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/volume_bars/">Volume bars</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Side panels</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/orderbook/">Orderbook</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/trades_feed/">Trades feed</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/large_trades_tracker/">Large Trades Tracker</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/trades_counters/">Trades counters</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Studies</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/volume_profile/">Volume profile</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/line_studies/">VWAP, CVD, SMA, EMA</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/s_r_levels/">S/R levels</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/counters_ratio/">Counters ratio chart</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Scripting Module</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/scripting/">Introduction to scripting module</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/data_structures/">Data structures</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/functions_libraries/">Functions and libraries</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Other</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/drawings/">Drawings</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/list_of_markets/">List of markets</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/color_theme/">Color theme</a></li>
+                    
+                    </ul>
+                    
+                    <h5>Troubleshooting</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/docs/faq/">Frequently asked questions</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/errors/">Errors</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Chart settings</h1>
+
+                    <p class="subtitle uk-text-lead uk-text-muted">Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.</p>
+
+                    <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom">
+                        
+
+
+    <img class="avatar avatar-small" alt="TensorCharts" width="32" height="32" data-proofer-ignore="true" src="https://avatars3.githubusercontent.com/TensorCharts?v=3&s=32" srcset="https://avatars3.githubusercontent.com/TensorCharts?v=3&s=32 1x, https://avatars3.githubusercontent.com/TensorCharts?v=3&s=64 2x, https://avatars3.githubusercontent.com/TensorCharts?v=3&s=96 3x, https://avatars3.githubusercontent.com/TensorCharts?v=3&s=128 4x" />
+
+
+
+    Written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">TensorCharts</span></span><br>
+
+
+<time datetime="2018-05-18T12:07:05+02:00" itemprop="datePublished">
+    
+    May 18, 2018
+</time>
+
+                    </div>
+
+                    <div class="article-content">
+                        <h4 class="no_toc" id="sections-in-this-article">Sections in this article</h4>
+<ul id="markdown-toc">
+  <li><a href="#timeframes" id="markdown-toc-timeframes">Timeframes</a></li>
+  <li><a href="#real-time-chart" id="markdown-toc-real-time-chart">Real-time chart</a></li>
+  <li><a href="#chart-type" id="markdown-toc-chart-type">Chart type</a></li>
+  <li><a href="#movezoom" id="markdown-toc-movezoom">Move/zoom</a>    <ul>
+      <li><a href="#move" id="markdown-toc-move">Move</a></li>
+      <li><a href="#zoom" id="markdown-toc-zoom">Zoom</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="timeframes">Timeframes</h3>
+<p>Since heatmaps are very heavy on the graphs, the time frames included for now are limited to:</p>
+<ul>
+  <li>1 Day</li>
+  <li>4 Hours</li>
+  <li>1 Hour</li>
+  <li>15 Minutes</li>
+  <li>5 Minutes</li>
+  <li>Real-time</li>
+</ul>
+
+<p>Heatmaps are not easily calculated as normal candlesticks. Therefore, at this time, options are limited to the above-mentioned, 6, timeframes.</p>
+
+<h3 id="real-time-chart">Real-time chart</h3>
+<p>The Real-time chart is a recreation of the order book in real time.  Since the graph will develop with the price action, once you initiate this timeframe, you will need to wait for the data to load. The precision of the heatmap will depend on precision of the order book. You can change the precision with + / - buttons in the top menu of order book or by changing order book heatmap precision,  buttons 1 / 2 right next to orderbook heatmap opacity slider.</p>
+
+<p>Real-time chart is being recreated from orderbook in real time thus you need to wait for the data to load. Precision of the heatmap depends on current orderbook precision. You can change precision with + / - buttons in the top menu of orderbook or by changing orderbook heatmap precision,  buttons 1 / 2 right next to orderbook heatmap opacity slider.</p>
+
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>B = ordebook heatmap precision</p>
+
+<h4>TIPS:</h4>
+<ul>
+  <li>Drag the y axis to adjust chart scale </li>
+  <li>Turn on candlesticks and set SMA to 10</li>
+  <li>Turn on large trades tracker to visualize important trades</li>
+</ul>
+</div>
+
+<p>Have you ever wondered what’s going with price inside candlesticks? Take a deeper look into the market, turn on Real Time chart and explore this new level of price development. The real-time chart automatically updates, live on your screen, so you can dive inside the market structure like never before.</p>
+
+<blockquote>
+  <p>Watch behavior of the market movers and learn how market reacts in different situations under the loop. Warning: addictive for scalpers!
+Combine the realtime chart with the 5m timeframe to improve your entry timing.</p>
+</blockquote>
+
+<h3 id="chart-type">Chart type</h3>
+<p>TensorCharts has three types of chart -  candlesticks,  heikin ashi, and  renko charts. You can easily toggle between them with the button right next to timeframes options or with key H. The three chart types can be defined as follows:</p>
+
+<ol>
+  <li><em>Candlesticks</em> : The most widely used tool in all of technical analysis, it simply graphs four data points of any given period: high, low, opening price, and closing price.</li>
+  <li><em>Heikin ashi</em> : Modified candles, best suited for trend riding as they take data from the previous period to portray momentum of the current period. Look for a doji or a shift between bullish and bearish candles to suggest a trend reversal or a point to exit the market and take your profits.</li>
+  <li><em>Renko</em> : It diminishes noise by isolating price from time. Each brick is formed if fixed increments or decrements in price are achieved. Renko in TensorCharts is calculated using the average true range (ATR 14). Renko needs more data, zoom in and out the chart to load more data.</li>
+</ol>
+
+<p>By default, visibility of candles is limited to outlines so it wouldn’t cover trades heatmap. To switch visibility, hit <strong>key C</strong> or click on candlestick icon button near chart type button.</p>
+
+<p>More precise settings of candlesticks’ visibility can be controlled by trades heatmap opacity slider. Try to move the slider to its extremes.</p>
+
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>H = chart type</p>
+<p>C = candlesticks’ visibility </p>
+
+<h4>TIPS:</h4>
+<p>Use Heikin Ashi candlesticks for better trend moves interpretation. It is great visual form of price development interpretation for swing traders.</p>
+<h4>LINKS:</h4>
+<ul>
+  <li> <a href="https://www.investopedia.com/terms/r/renkochart.asp" target="_blank">Renko charts</a></li>
+  <li> <a href="https://www.investopedia.com/trading/heikin-ashi-better-candlestick/" target="_blank">Heikin ashi</a></li>
+</ul>
+</div>
+
+<h3 id="movezoom">Move/zoom</h3>
+<p>There are multiple ways to zoom and move within the chart:</p>
+
+<h4 id="move">Move</h4>
+<p>Mouse - left click and drag
+<br />
+Touchpad - two fingers and horizontal slide</p>
+
+<h4 id="zoom">Zoom</h4>
+<p>Mouse - scroll wheel
+<br />
+Touchpad - two fingers and vertical slide
+<br />
+Zoom buttons in the middle of chart</p>
+
+<p>Price range can be also adjusted by dragging Y axis. It’s useful to see important supply zones further from visible range. Be aware custom price range turns off autoscaling. To reset it back to default settings, click on the reload button in between zoom buttons.</p>
+
+
+                        <div class="share uk-text-center">
+    <a href="https://twitter.com/intent/tweet?text=Chart settings&url=http://localhost:4000/docs/chart/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    <a  class="uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2Fchart%2F" rel="nofollow" target="_blank" title="Share on Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+</div>
+
+                    </div>
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+
+  
+  
+    <ul class="uk-pagination uk-margin-top">
+          
+            
+            
+            <li><a class="hvr-back" href="/docs/home/">&larr; Previous</a></li>
+          
+          
+            
+            
+            <li class="uk-margin-auto-left"><a class="hvr-forward" href="/docs/hotkeys/">Next &rarr;</a></li>
+          
+    </ul>
+    
+
+
+                    <div class="uk-margin-large-top">
+    <h3>Related Articles</h3>
+
+    
+    
+    
+
+    <ul class="uk-list">
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/faq/">Frequently asked questions</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/home/">Introduction</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/line_studies/">VWAP, CVD, SMA, EMA</a></li>
+        
+        
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+        <li><a href="/docs/orderbook/">Orderbook</a></li>
+        
+        
+            
+    </ul>
+</div>
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        <ul class="uk-nav uk-nav-default">
+            <li><a class="uk-logo uk-margin-small-bottom" href="/"><img src="http://localhost:4000/assets/posts/logo.png" alt="Docs"></a></li>
+            
+                
+            <li><a href="http://localhost:4000/" >Help</a></li>
+            
+                
+            <li><a href="http://localhost:4000/blog/" >Blog</a></li>
+            
+                
+            <li><a href="http://localhost:4000/changelog/" >Changelog</a></li>
+            
+                
+            <li><a href="http://localhost:4000/contact/" >Contact</a></li>
+            
+        </ul>
+
+        <div class="uk-margin-small-top uk-text-center uk-text-muted uk-link-muted">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/TensorCharts" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div>
+    <a href="https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    </body>
+
+</html>

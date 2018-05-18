@@ -3,12 +3,28 @@ layout: contact
 title: Got Any Questions
 permalink: /contact/
 formspree:
-    email: my_name@gmail.com
+    email: david@tensorcharts.com
     redirect: /thanks/
 ---
 
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+##### Follow us ang get the latest update first. If you have any questions, contact us throught the following form or via email 
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+##### SOCIAL MEDIA
+<a target="_blank" href="https://twitter.com/TensorCharts">Twitter</a>
+<br>
+<a target="_blank" href="https://discord.gg/3uE5Rr7">Discord</a>
+<br>
+<a target="_blank" href="https://www.reddit.com/r/tensorcharts/">Reddit</a>
+<br>
+<a target="_blank" href="https://www.youtube.com/watch?v=YZCUMtV8rBU&t=0s&list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T&index=1">Youtube</a>
+<br>
 
-{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
+##### EMAIL
+<a href="mailto:david@tensorcharts.com">david@tensorcharts.com</a>
+
+
+
+
+
+
+

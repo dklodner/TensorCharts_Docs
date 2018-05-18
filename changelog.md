@@ -4,4 +4,5 @@ title: Changelog
 permalink: /changelog/
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Do you want to get latest updated to your mailbox? Sign up here and don't miss any important updates and news.
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSebQapHQYPvCU5ocVyCX4ia1QVdZ-e2wq_k7wx73kW-FEaqQg/viewform?usp=sf_link" target="_blank"> Sign up here</a>

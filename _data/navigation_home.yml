@@ -1,16 +1,16 @@
 # Categories home page navigation
 
-- title: Getting Started
-  desc: Get your account up and running in just few easy steps
+- title: Manual
+  desc: Learn about orderflow and TC features
   icon: settings
   doc: home
 
-- title: Account and Billing
-  desc: Managing your account, creating new users and exporting data
-  icon: credit-card
-  doc: frontmatter
+- title: Video Tutorials
+  desc: Videos about TC basic concepts and trading strategies
+  icon:  play-circle
+  url: http://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g
 
 - title: Troubleshooting
   desc: Answers to most common configuration issues
-  icon: cog
-  doc: variables
+  icon: question
+  doc: faq

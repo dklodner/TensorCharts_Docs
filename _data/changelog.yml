@@ -1,38 +1,123 @@
 # Changelog page source
 
-- title: Version 1.0.0
-  label: STABLE
-  date: Oct 21, 2017
+- title: Version 0.1.5
+  label: BETA
+  date:  17.5. 2018
   list:
-  - Added Slideshow component
-  - Added style support for radio and minusbox in Firefox
-  - Removed class from Section component
-  - Allow fullscreen mode for videos in Lightbox
-  - Fixed responsive images in modal for IE11
-  - Fix Grid and Margin component for cells with no height
-  - Larger horizontal padding for form input and textarea
+  - numerical description of heatmaps when zoomed in
+  - trades feed sound signal improved
+  - measure tool fixed
+  - 1 day data bug fixed 
+  - first version of <a href="http://docs.tensorcharts.com/ ">docs</a>  
+  - few minor bugs fixed
 
-- title: Version 1.0.0
-  label: BETA 1
-  date: Sep 01, 2017
-  list:
-  - Allow fullscreen mode for YouTube videos in Lightbox
-  - Fix icons not displaying if connected in rapid succession
-  - Fix scrollbar jumping in Switcher
 
-- title: Version 0.6.0
-  label:
-  date: Aug 15, 2017
+- title: Version 0.1.4
+  label: BETA
+  date: 12.5. 2018
   list:
-  - Added style support for radio and checkbox in Firefox
-  - Removed class from Section component
-  - Add workaround to mitigate the duplicating icons issue
-  - Fixed responsive images in modal for IE11
+  - Measurement tool
+  - browser CPU load 50% reduction after optimization
+  - websockets reconnection fixed
+  - number of rows in trades feed extended
+  - 3 exchange data feeds libraries updated
+  - CVD multiple lines glitch fixed
+  - app styling improved
 
-- title: Version 0.5.0
-  label:
-  date: Oct 21, 2017
+
+- title: Version 0.1.3
+  label: BETA
+  date: 7.5. 2018 
   list:
-  - Media options now support any valid media query syntax
-  - Added style support for radio and checkbox in Firefox
-  - Fix whitespace trimming in dist
+  - Fixed range Volume Profile
+  - draft of <a href="https://goo.gl/pSr25n">manual</a> 
+  - server status notifications
+  - filter large trades tracker by defined value (not just slider)
+  - trades counters limit for volume filter increased from 20mins to 60mins
+  - side panels hiding
+  - settings panels design changed
+  - toggle on/off SMA, EMA, CVD
+  - volume bars Y axis added
+  - new scripting module data - currentRangeChartData
+  - S/R levels detection algorithm changed
+  - improved chart rendering performance
+  - chat box moved to the right bottom corner
+  - browser console  message(edited)
+  - Volume Profile bins settings
+  - Large Trades Tracker hotkey (G)
+  - Volume Profile toggle bug fixed
+
+
+- title: Version 0.1.2
+  label: BETA
+  date: 25.4. 2018
+  list:
+  - new heatmap colormap
+  - chart position reload bug fixed
+  - large timespan will be calculated for 1D and 15min timeframes 
+  - onboarding
+  - orderbook heatmap increased to 15% price range
+  - fullscreen price tag fixed
+  - Bitfinex TRXUSD added
+  - trades counters minor bug fix
+  - documentation draft <a href="http://docs.tensorcharts.com/">docs.tensorcharts.com</a>
+  - lodash support in scripting module
+  - chrome notification function in Scripting Module
+  - websocket API change - data bundled into arrays
+  - backend optimized, should handle larger load
+
+
+- title: Version 0.1.1
+  label: BETA
+  date: 16.4. 2018
+  list:
+  - new pairs | Bitfinex NEOUSD and Binance XVGBTC, TRXBTC, ADABTC, EOSBTC, WANBTC, IOTABTC
+  - new timeframes 1D, 15min and Real-Time
+  - large trades tracker
+  - market list menu improved - search and  watchlist of favorite markets
+  - grouping of trades counters by interval + expandable panel
+  - orderbook range was increased to 80 price levels
+  - new library for technical analysis and pattern recognition
+  - possibility to add price level indicator on chart from code
+  - beep function has 2 new sounds
+  - last chart data update timer
+  - candlesticks switcher, new trades feed sound signal, counters ratio bug fixed, improved styling
+  - gdax datafeed connection improved
+  - chart zoom button added
+
+
+- title: Version 0.1.0
+  label: BETA 
+  date: 23.3. 2018
+  list:
+  - Scripting module (aplha version)
+  - ability to add annotations/labels on chart from TC scripting module
+  - new scripts for PRICE_VOL_DELTA_DIVERGENCE and LARGE_LIMIT_ORDER_DETECTION
+
+
+- title: Version 0.1.0
+  label: ALPHA
+  date: 15.3 2018
+  list:
+  - new markets | Binance BNBUSDT, Bitstamp ETHBTC, Bitfinex XRPUSD
+  - min. volume slider can be switched to value input (see the button "S" in orderbook heatmap settings)
+  - trades feed sound signal
+  - volume profile calculated from heatmaps (more precise)
+  - S/R levels volume labels
+  - orderbook update rate increased
+  - two fingers chart panning (moving)
+
+
+- title: Version 0.0.8
+  label: ALPHA
+  date: 5.3. 2018
+  list:
+  - counters ratio dots visibility improved
+  - chart type toggle button added (candlesticks, heikin ashi, renko)
+  - book counter relative distance option added
+  - trades counters render bugs fixed
+  - binance connection improved
+  - orderbook heatmaps min volume changed
+  - ton of minor bugs
+  - new markets added | Binance VEN/BTC and LTC/USDT
+

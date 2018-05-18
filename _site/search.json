@@ -1,115 +1,179 @@
 [
   
     {
-      "title"    : "How To Setup Domain SSL With Github Pages",
+      "title"    : "Chart settings",
       "category" : "",
       "tags"     : "featured",
-      "url"      : "/docs/assets/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/chart/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Category hosting Setting up new domain and page",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/collections/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Purchasing domain name and DNS setup",
+      "title"    : "Color theme",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/configuration/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/color_theme/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Cancelling a website subscription",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/drafts/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Settings up Jekkyl on Github pages",
+      "title"    : "Counters ratio chart",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/frontmatter/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/counters_ratio/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Creating new page in Jekyll and publishing",
+      "title"    : "Data structures",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/data_structures/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Drawings",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/drawings/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Errors",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/errors/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Frequently asked questions",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "/docs/faq/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Functions and libraries",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/functions_libraries/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Introduction",
       "category" : "",
       "tags"     : "featured",
       "url"      : "/docs/home/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Getting started with our application",
+      "title"    : "List of hotkeys",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/hotkeys/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Large Trades Tracker",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/large_trades_tracker/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "VWAP, CVD, SMA, EMA",
       "category" : "",
       "tags"     : "featured",
-      "url"      : "/docs/installation/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/line_studies/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Updating your billing credit card",
+      "title"    : "List of markets",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/list_of_markets/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Orderbook",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "/docs/orderbook/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Orderbook heatmap",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/orderbook_heatmap/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "S/R levels",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/s_r_levels/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Introduction to scripting module",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/scripting/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Trades counters",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/trades_counters/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Trades feed",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "/docs/trades_feed/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Trades heatmap",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "/docs/trades_heatmap/",
+      "date"     : "2018-05-18 12:07:05 +0200"
+    } ,
+  
+    {
+      "title"    : "Volume bars",
       "category" : "",
       "tags"     : "doc",
-      "url"      : "/docs/pages/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/volume_bars/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } ,
   
     {
-      "title"    : "Accepted currencies for product billing",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/posts/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Getting a JavaScript console error",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/quickstart/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Upgrading to paid service",
+      "title"    : "Volume profile",
       "category" : "",
       "tags"     : "",
-      "url"      : "/docs/structure/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Design tips for choosing great images",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/usage/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Understanding company billing and accounts",
-      "category" : "",
-      "tags"     : "featured",
-      "url"      : "/docs/variables/",
-      "date"     : "2018-04-20 02:14:25 +0200"
-    } ,
-  
-    {
-      "title"    : "Selecting the right fonts and colors",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/docs/windows/",
-      "date"     : "2018-04-20 02:14:25 +0200"
+      "url"      : "/docs/volume_profile/",
+      "date"     : "2018-05-18 12:07:05 +0200"
     } 
   
 ]

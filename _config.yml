@@ -19,7 +19,7 @@ url:                "https://docs.tensorcharts.com"
 
 # Site logo, image or text
 brand:
-    image:          logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
+    image:          logo.png  # e.g. logo.png, upload logo image file to /assets/img/ folder
     text:           Docs      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Default author settings
@@ -37,17 +37,18 @@ authors:
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/
+    facebook:       
     flickr:
     dribbble:
     github:
     googleplus:
-    instagram:      https://www.instagram.com/
+    instagram:      
     linkedin:
     pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
-    youtube:
+    twitter:        https://twitter.com/TensorCharts
+    vimeo:          
+    youtube:        https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g
+    reddit:         https://www.reddit.com/r/tensorcharts/
 
 # Twitter share button
 twitter_username:
@@ -70,7 +71,7 @@ google_maps_api_key:
 paginate: 10
 
 # Blog path
-paginate_path:      "/news/:num/"
+paginate_path:      "/blog/:num/"
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/
