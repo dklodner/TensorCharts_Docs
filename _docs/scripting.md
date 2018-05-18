@@ -10,36 +10,54 @@ author:
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+TC Scripting Module allows you to access all of the data loaded in app. You can easily code
+and analyze TC data, only basic basic JavaScript knowledge is required. Scripting Module comes with a few helper functions and libraries to ease your coding. 
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+Basics mechanics of the script: you write a data analysis, define name and interval (milliseconds). So if you set the interval e.g to 2000, it runs every 2 seconds.
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+<div class="caution">
+Save copies of your scripts outside TC. Also data structures and API can change in the future.
+</div>
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+### Data
+Description of each data structure is not part of this manual. To study TC data, open browser console (F12) and output desired data to console, e.g. console.log(trades)
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+| data  |   description                      |
+|:--------|:-------------                 | 
+| ***trades***      | last 20min of trades feed           |
+| ***largeTrades*** | last 24h of large trades |
+| ***orderBook*** | current orderbook |
+| ***chartData*** | trades heatmaps, orderbook heatmaps, candles, volume bars,... |
+| ***currentRangeChartData*** | chart data of current range(domain) |
+| ***counters*** | your current counters |
+| ***market*** | market name |
+| ***exchange*** | exchange name |
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+	
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+Each script has its own scope accessible by "self." prefix. You can store there script’s state variables for the next script run.
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
+### Functions and libraries
+TensorCharts provides you few functions and libraries which allow you to enhance capabilities of data analysis scripts and also to interact with TC itself, like charting price lines/annotations or creating your own voice assistant.
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
+#### Functions
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+| function  |   description                      |
+|:--------|:-------------                 | 
+| ***speak***(textToSpeech string)       | your own voice assistant           |
+| ***beep***(type int)       | sound alarm (type 1==positive, 2==negative), type can be omitted == default sound          |
+| ***browserNotification***(title string, message string)      | sit creates browser’s push notification so you don’t have to watch TC all the time          |
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.
+ 
+
+#### Libraries
+simple-statistics library as "**statistics**" object
+<a href="https://simplestatistics.org/docs/" target="_blank">https://simplestatistics.org/docs/</a>
+
+
+technical analysis library as "**TA**" object
+candlesticks and price patterns detection or 25+ indicators
+<a href="https://github.com/anandanand84/technicalindicators#user-content-available-indicators" target="_blank">https://github.com/anandanand84/technicalindicators#user-content-available-indicators</a>
+
+
+

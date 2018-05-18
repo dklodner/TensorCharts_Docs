@@ -1,46 +1,46 @@
 ---
 layout: doc
 title: VWAP, CVD, SMA, EMA
-subtitle: Vestibulum ante ipsum primis orci luctus et ultrices posuere cubilia Curae.
+subtitle:
 author:
 tags: featured
 ---
+
+
+You can’t customize colors of each line, however notice the width of the lines. The higher the period is, the wider the line gets.
 
 #### Sections in this article
 {:.no_toc}
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+### VWAP - Volume Weighted Average Price
+VWAP is calculated as a moving average derived from the price and adjusted by traded volume. This depicts a much more objective average price since it takes into account traded volume distribution. 
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+#### Standard deviations
+VWAP is usually used alongside 1. and 2. standard deviation channels for mean reversion strategies.  You can define the interval of averaging as a number of candles in the bottom settings panel, as well as turn on/off the Standard Deviation (Std1, Std2).
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+For example, if the VWAP is set to a 20-period length, its deviations can produce the same signals as regular Bollinger bands. Thus, look for squeezes in volatility (compressed bands around price) prior to major trending moves in either direction.
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>W = VWAP on/off</p>
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+<h4>TIPS:</h4>
+<p>Set VWAP to 60, click on VWAP, Std1 and Std2 buttons and watch how price reverts back to the center line after crossing Std2 line.</p>
+<h4>LINKS:</h4>
+  <li> <a href="https://www.investopedia.com/terms/v/vwap.asp" target="_blank">Investopedia description</a></li>
+<ul>
+</ul>
+</div>
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+### SMA, EMA
+Multiple lines
+Simple and exponential moving averages in TensorCharts can produce crossovers with price, or the famous golden and death crosses. However, when you insert multiple period lengths divided by a comma, you can overlay fishnets on the chart to best gauge for market compression and expansion as related to price.
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
+You can’t customize colors of each line, however notice the width of the lines. The higher the period is, the wider the line gets.
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
+### Cumulative Volume Delta - CVD
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Drawings
-subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+subtitle:
 author:
 ---
 
@@ -10,36 +10,37 @@ author:
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+There’s a basic toolbox for graphing with charts and market analysis. Use pictograms on the left vertical panel of your TensorCharts screen to active the drawing tool and then plot them on your price chart. To remove unwanted drawings from the chart, select the drawing tool on your chart and press the Delete button on your keyboard.
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+### Line
+Use the Trend Line drawing tool to plot current trends or price formations. Plot for example Triangle Formations and focus on their edges – keeping an eye out for breakouts - crypto loves Triangle Formation Patterns.
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+### Standard deviation channel
+Standard deviation channel can help you to measure price deviations during trend channels.
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+### Parallel channel 
+Parallel channel drawing to lets you to plot trend channels to support your technical analysis studies.
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+### Fibonacci retracements
+Important drawing tool for FIBO traders. Plot Fibonacci extensions on the last swing and trade the pullback on the Fibo levels.
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+### Measure
+Measure tool allows you to analyze volume within a defined range/area. Just click and drag your mouse over a chart area and get the data about buy/sell/delta/total volume as well as percentage/nominal price change.
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>L = <strong>L</strong>ine</p>
+<p>F = <strong>F</strong>ibonacci Retracements</p>
+<p>Y = Ra<strong>Y</strong>line</p>
+<p>D = Standard <strong>D</strong>eviation Channel</p>
+<p>E = <strong>E</strong>quidistant Channel</p>
+<p>M = <strong>M</strong>easure</p>
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
+</div>
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.
+
+
+
+

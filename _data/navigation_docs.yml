@@ -27,14 +27,12 @@
 - title: Scripting Module
   docs:
   - scripting
-  - data_structures
-  - functions_libraries
 
 - title: Other
   docs:
   - drawings
   - list_of_markets
-  - color_theme
+  - contributors
 
 
 - title: Troubleshooting

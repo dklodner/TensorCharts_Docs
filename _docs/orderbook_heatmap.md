@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Orderbook heatmap
-subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+subtitle: 
 tags:
 author:
 ---
@@ -11,36 +11,40 @@ author:
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+Orderbook heatmap is a graphical representation of historical orderbook snapshot. Each price level and its amount of pending orders is visualized as a blue rectangle, the brighter color the more limit orders.
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+With it, you can graphically observe the interaction between the order book and the price. Watch in real time how limit orders of all sizes appear and vanish and to determine important levels, pay close to attention to large limit orders.
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+### Minimum volume filter
+To filter out unnecessary noise, try to increase ‘min volume’ cut-off which hides every volume below this amount. ‘Min volume’ can be adjusted by either the slider or by value - see the little ‘S’ button on the left side of ‘min volume’ slider.
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+Every market has its own ideal heatmap settings, re-adjust opacity and min. volume to your own settings.
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+### Colormap
+The last option of OB heatmap is Colormap. Currently there are 2 colormap available, 
+1. plain blue gradient  
+2. temperature gradient 
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
+Temperature gradient enhances the visibility of large volume areas transitioning from blue-violet-red-orange-yellow from large to extremely large limit orders respectively. 
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
+<div class="videowrapper">
+<iframe src="http://www.youtube.com/embed/mWJL5_wX9is?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+</div>
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>B = orderbook heatmap precision</p>
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.
+<h4>TIPS:</h4>
+<p>Pay attention not only to the largest orders levels but also to empty zones on the chart. These zones are often great areas for finding price spikes.
+As well as using strong levels for reversal zones, practice trading breakout zones and combine both approaches.</p>
+<h4>LINKS:</h4>
+<ul>
+  <li> <a href="https://youtu.be/mWJL5_wX9is" target="_blank">TC video tutorial on Orderbook Heatmap</a></li>
+</ul>
+</div>
+
+
+

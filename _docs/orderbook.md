@@ -11,36 +11,46 @@ tags: featured
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+The Order book is a basic part of every standard market structure. When you place a limit order, you are part of the order book even if you do not realize it. When you buy or sell via market order you are taking liquidity directly from order book (you are counterparty to some already pending limit orders in order book). Examination of the order book can bring you another dimension of information that is not visible on a price chart. TensorCharts order book allows you to see the most important information from it and several order book related tools and settings to maximize your output info.
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+### Volume highlighter and charting
+Type desired volume level to highlight only order book zones with a larger volume than your number. Use the chart pictogram button to plot these areas to the price chart.
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+### Count
+Count function enables to display exact number of limit order on every order book level. You can evaluate importance of price zone not only by the limit orders volume but also intensity. Sometimes you can also spot single large orders that are being send to market to fake short term traders decision making process.
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+Only available for Bitfinex.
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+### Precision
+Precision allows you to see the order book in several ways. You can zoom(+) waiting limit orders to see every single price level detail or unzoom(-) to let TensorCharts count them together on an aggregated scale basis - which is more practical for most traders.
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+### Ask/bid side
+Ask limit orders are pending limit order to buy (red colour) and bid limit orders are pending limit orders to sell (green colour). The Order book aggregates them to a vertical row and divides them by the current price level and different colours.
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+### Buy/Sell counter
+Measure volume of buyers and sellers for every price level in real time. Have a look at the most attractive zones for both buyers and sellers and quickly spot zones where whales tend to be active.
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
+### Book Counter
+Measure Order Book pressures by identifying how the volume of limit orders is affecting price change. Focus on the zones where you expect a price reversal to occur and confirm your trade ideas with the Book Counter in real time.
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
+- **Interval**: Select number of rows to display. Number represents the sequence of rows on each side of the market.
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+- **Fixed/relative settings**: Tweak the Book Counter settings by adjusting the number of rows to consider - fixing them relative to the actual price level, or whichever price you wish to observe.
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.
+- **start/stop**: On/off button for the book counter function.
+
+<div class="videowrapper">
+<iframe src="http://www.youtube.com/embed/Q7D7AIKjudM?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+</div>
+
+
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>Spacebar = start/stop book counter</p>
+
+<h4>TIPS:</h4>
+<p>Levels with the largest intensity are important for future market development.</p>
+<p>Zones without large volume are often areas where the price tends to pass by faster than those with larger volume.</p>
+<ul>
+</ul>
+</div>

@@ -17,9 +17,9 @@
 <meta property="og:url" content="http://localhost:4000/docs/orderbook/" />
 <meta property="og:site_name" content="TensorCharts Manual" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-05-18T12:07:05+02:00" />
+<meta property="article:published_time" content="2018-05-18T15:06:40+02:00" />
 <script type="application/ld+json">
-{"headline":"Orderbook","dateModified":"2018-05-18T12:07:05+02:00","datePublished":"2018-05-18T12:07:05+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/orderbook/"},"author":{"@type":"Person","name":"TensorCharts"},"description":"Sections in this article","url":"http://localhost:4000/docs/orderbook/","@context":"http://schema.org"}</script>
+{"headline":"Orderbook","dateModified":"2018-05-18T15:06:40+02:00","datePublished":"2018-05-18T15:06:40+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/orderbook/"},"author":{"@type":"Person","name":"TensorCharts"},"description":"Sections in this article","url":"http://localhost:4000/docs/orderbook/","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/assets/posts/logo.png"/>
@@ -195,14 +195,6 @@
                       
                       <li class=""><a href="/docs/scripting/">Introduction to scripting module</a></li>
                     
-                      
-                      
-                      <li class=""><a href="/docs/data_structures/">Data structures</a></li>
-                    
-                      
-                      
-                      <li class=""><a href="/docs/functions_libraries/">Functions and libraries</a></li>
-                    
                     </ul>
                     
                     <h5>Other</h5>
@@ -218,7 +210,7 @@
                     
                       
                       
-                      <li class=""><a href="/docs/color_theme/">Color theme</a></li>
+                      <li class=""><a href="/docs/contributors/">Contributors</a></li>
                     
                     </ul>
                     
@@ -257,7 +249,7 @@
     Written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">TensorCharts</span></span><br>
 
 
-<time datetime="2018-05-18T12:07:05+02:00" itemprop="datePublished">
+<time datetime="2018-05-18T15:06:40+02:00" itemprop="datePublished">
     
     May 18, 2018
 </time>
@@ -267,54 +259,62 @@
                     <div class="article-content">
                         <h4 class="no_toc" id="sections-in-this-article">Sections in this article</h4>
 <ul id="markdown-toc">
-  <li><a href="#image-lightbox-example" id="markdown-toc-image-lightbox-example">Image Lightbox Example</a></li>
-  <li><a href="#example-of-code-block" id="markdown-toc-example-of-code-block">Example Of Code Block</a></li>
-  <li><a href="#text-and-quote" id="markdown-toc-text-and-quote">Text and Quote</a></li>
+  <li><a href="#volume-highlighter-and-charting" id="markdown-toc-volume-highlighter-and-charting">Volume highlighter and charting</a></li>
+  <li><a href="#count" id="markdown-toc-count">Count</a></li>
+  <li><a href="#precision" id="markdown-toc-precision">Precision</a></li>
+  <li><a href="#askbid-side" id="markdown-toc-askbid-side">Ask/bid side</a></li>
+  <li><a href="#buysell-counter" id="markdown-toc-buysell-counter">Buy/Sell counter</a></li>
+  <li><a href="#book-counter" id="markdown-toc-book-counter">Book Counter</a></li>
 </ul>
 
-<p>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</p>
+<p>The Order book is a basic part of every standard market structure. When you place a limit order, you are part of the order book even if you do not realize it. When you buy or sell via market order you are taking liquidity directly from order book (you are counterparty to some already pending limit orders in order book). Examination of the order book can bring you another dimension of information that is not visible on a price chart. TensorCharts order book allows you to see the most important information from it and several order book related tools and settings to maximize your output info.</p>
 
-<p>Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</p>
+<h3 id="volume-highlighter-and-charting">Volume highlighter and charting</h3>
+<p>Type desired volume level to highlight only order book zones with a larger volume than your number. Use the chart pictogram button to plot these areas to the price chart.</p>
 
-<h2 id="image-lightbox-example">Image Lightbox Example</h2>
-<p>Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.</p>
+<h3 id="count">Count</h3>
+<p>Count function enables to display exact number of limit order on every order book level. You can evaluate importance of price zone not only by the limit orders volume but also intensity. Sometimes you can also spot single large orders that are being send to market to fake short term traders decision making process.</p>
 
-<figure data-uk-lightbox="animation: slide">
-    <a class="uk-inline" href="http://localhost:4000/assets/posts/image1.png" caption="Image in lightbox">
-        <img src="http://localhost:4000/assets/posts/image1.png" alt="Alt for image" />
-        <div class="uk-position-center">
-            <span data-uk-overlay-icon=""></span>
-        </div>
-    </a>
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Image in lightbox</span></figcaption>
-</figure>
+<p>Only available for Bitfinex.</p>
 
-<p>Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.</p>
+<h3 id="precision">Precision</h3>
+<p>Precision allows you to see the order book in several ways. You can zoom(+) waiting limit orders to see every single price level detail or unzoom(-) to let TensorCharts count them together on an aggregated scale basis - which is more practical for most traders.</p>
 
-<h2 id="example-of-code-block">Example Of Code Block</h2>
-<p>In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<h3 id="askbid-side">Ask/bid side</h3>
+<p>Ask limit orders are pending limit order to buy (red colour) and bid limit orders are pending limit orders to sell (green colour). The Order book aggregates them to a vertical row and divides them by the current price level and different colours.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/assets/css/main.css"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"shortcut icon"</span> <span class="na">type=</span><span class="s">"image/png"</span> <span class="na">href=</span><span class="s">"/assets/img/favicon.png"</span> <span class="nt">&gt;</span>
-  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/assets/js/main.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-</code></pre>
+<h3 id="buysell-counter">Buy/Sell counter</h3>
+<p>Measure volume of buyers and sellers for every price level in real time. Have a look at the most attractive zones for both buyers and sellers and quickly spot zones where whales tend to be active.</p>
+
+<h3 id="book-counter">Book Counter</h3>
+<p>Measure Order Book pressures by identifying how the volume of limit orders is affecting price change. Focus on the zones where you expect a price reversal to occur and confirm your trade ideas with the Book Counter in real time.</p>
+
+<ul>
+  <li>
+    <p><strong>Interval</strong>: Select number of rows to display. Number represents the sequence of rows on each side of the market.</p>
+  </li>
+  <li>
+    <p><strong>Fixed/relative settings</strong>: Tweak the Book Counter settings by adjusting the number of rows to consider - fixing them relative to the actual price level, or whichever price you wish to observe.</p>
+  </li>
+  <li>
+    <p><strong>start/stop</strong>: On/off button for the book counter function.</p>
+  </li>
+</ul>
+
+<div class="videowrapper">
+<iframe src="http://www.youtube.com/embed/Q7D7AIKjudM?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen="" uk-responsive="" uk-video="automute: true"></iframe>
 </div>
 
-<h2 id="text-and-quote">Text and Quote</h2>
-<p>Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.</p>
+<div class="summary-box">
+<h4>HOTKEY:</h4>
+<p>Spacebar = start/stop book counter</p>
 
-<blockquote>
-  <p>Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet</p>
-</blockquote>
-
-<p>In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-
-<p>Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.</p>
+<h4>TIPS:</h4>
+<p>Levels with the largest intensity are important for future market development.</p>
+<p>Zones without large volume are often areas where the price tends to pass by faster than those with larger volume.</p>
+<ul>
+</ul>
+</div>
 
                         <div class="share uk-text-center">
     <a href="https://twitter.com/intent/tweet?text=Orderbook&url=http://localhost:4000/docs/orderbook/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
@@ -382,15 +382,6 @@
         <li><a href="/docs/chart/">Chart settings</a></li>
         
         
-    
-
-    
-
-    
-    
-
-    
-
     
 
     
