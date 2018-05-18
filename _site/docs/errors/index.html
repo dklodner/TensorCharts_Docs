@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Errors | TensorCharts Manual</title>
+<title>F.A.Q. and Errors | TensorCharts Manual</title>
 <meta name="generator" content="Jekyll v3.4.1" />
-<meta property="og:title" content="Errors" />
+<meta property="og:title" content="F.A.Q. and Errors" />
 <meta name="author" content="TensorCharts" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Sections in this article" />
@@ -17,9 +17,9 @@
 <meta property="og:url" content="http://localhost:4000/docs/errors/" />
 <meta property="og:site_name" content="TensorCharts Manual" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-05-18T15:06:40+02:00" />
+<meta property="article:published_time" content="2018-05-18T16:05:01+02:00" />
 <script type="application/ld+json">
-{"headline":"Errors","dateModified":"2018-05-18T15:06:40+02:00","datePublished":"2018-05-18T15:06:40+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/errors/"},"author":{"@type":"Person","name":"TensorCharts"},"description":"Sections in this article","url":"http://localhost:4000/docs/errors/","@context":"http://schema.org"}</script>
+{"headline":"F.A.Q. and Errors","dateModified":"2018-05-18T16:05:01+02:00","datePublished":"2018-05-18T16:05:01+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/errors/"},"author":{"@type":"Person","name":"TensorCharts"},"description":"Sections in this article","url":"http://localhost:4000/docs/errors/","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/assets/posts/logo.png"/>
@@ -195,6 +195,14 @@
                       
                       <li class=""><a href="/docs/scripting/">Introduction to scripting module</a></li>
                     
+                      
+                      
+                      <li class=""><a href="/docs/scripts/">Curated list of scripts</a></li>
+                    
+                      
+                      
+                      <li class=""><a href="/docs/script_example/">Example of a TC script</a></li>
+                    
                     </ul>
                     
                     <h5>Other</h5>
@@ -219,11 +227,7 @@
                     
                       
                       
-                      <li class=""><a href="/docs/faq/">Frequently asked questions</a></li>
-                    
-                      
-                      
-                      <li class="uk-active"><a href="/docs/errors/">Errors</a></li>
+                      <li class="uk-active"><a href="/docs/errors/">F.A.Q. and Errors</a></li>
                     
                     </ul>
                     
@@ -234,9 +238,9 @@
 
                 <article class="uk-article">
 
-                    <h1 class="uk-article-title">Errors</h1>
+                    <h1 class="uk-article-title">F.A.Q. and Errors</h1>
 
-                    <p class="subtitle uk-text-lead uk-text-muted">Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.</p>
+                    
 
                     <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom">
                         
@@ -249,7 +253,7 @@
     Written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">TensorCharts</span></span><br>
 
 
-<time datetime="2018-05-18T15:06:40+02:00" itemprop="datePublished">
+<time datetime="2018-05-18T16:05:01+02:00" itemprop="datePublished">
     
     May 18, 2018
 </time>
@@ -259,57 +263,64 @@
                     <div class="article-content">
                         <h4 class="no_toc" id="sections-in-this-article">Sections in this article</h4>
 <ul id="markdown-toc">
-  <li><a href="#image-lightbox-example" id="markdown-toc-image-lightbox-example">Image Lightbox Example</a></li>
-  <li><a href="#example-of-code-block" id="markdown-toc-example-of-code-block">Example Of Code Block</a></li>
-  <li><a href="#text-and-quote" id="markdown-toc-text-and-quote">Text and Quote</a></li>
+  <li><a href="#cant-see-the-main-chart" id="markdown-toc-cant-see-the-main-chart"><em>Can’t see the main chart</em></a></li>
+  <li><a href="#counters-ratio-chart-is-empty" id="markdown-toc-counters-ratio-chart-is-empty"><em>Counters ratio chart is empty</em></a></li>
+  <li><a href="#the-site-is-blank" id="markdown-toc-the-site-is-blank"><em>The site is blank</em></a></li>
+  <li><a href="#bitfinex-order-book-is-empty-above-10k" id="markdown-toc-bitfinex-order-book-is-empty-above-10k"><em>Bitfinex order book is empty above 10k.</em></a></li>
+  <li><a href="#hotkeys-are-not-working" id="markdown-toc-hotkeys-are-not-working"><em>Hotkeys are not working.</em></a></li>
+  <li><a href="#site-layout-is-different-than-in-your-videos-how-do-i-get-orderbook-next-to-chart" id="markdown-toc-site-layout-is-different-than-in-your-videos-how-do-i-get-orderbook-next-to-chart"><em>Site layout is different than in your videos. How do I get orderbook next to chart?</em></a></li>
+  <li><a href="#i-dont-see-counters-ratio-chart-on-mobile-phone" id="markdown-toc-i-dont-see-counters-ratio-chart-on-mobile-phone"><em>I don’t see counters ratio chart on mobile phone</em></a></li>
+  <li><a href="#why-i-cant-filter-out-some-trades-counters-by-volume" id="markdown-toc-why-i-cant-filter-out-some-trades-counters-by-volume"><em>Why I can’t filter out some trades counters by volume?</em></a></li>
+  <li><a href="#the-last-candle-is-few-hours-old" id="markdown-toc-the-last-candle-is-few-hours-old"><em>The last candle is few hours old</em></a></li>
+  <li><a href="#cant-scroll-more-than-a-few-weeksmonths-back" id="markdown-toc-cant-scroll-more-than-a-few-weeksmonths-back"><em>Can’t scroll more than a few weeks/months back</em></a></li>
+  <li><a href="#can-i-copy-settings-from-one-pair-to-another" id="markdown-toc-can-i-copy-settings-from-one-pair-to-another"><em>Can I copy settings from one pair to another?</em></a></li>
 </ul>
 
-<p>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</p>
+<h4 id="cant-see-the-main-chart"><em>Can’t see the main chart</em></h4>
+<p>Try open up TC in incognito mode. If it helps then the problem is in browser’s localStorage. You can follow this guide on how to clear your localStorage. Be aware it deletes your TC settings and custom scripts.</p>
 
-<p>Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.</p>
+<p><a href="https://superuser.com/a/655198" target="_blank">https://superuser.com/a/655198</a></p>
 
-<h2 id="image-lightbox-example">Image Lightbox Example</h2>
-<p>Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.</p>
+<h4 id="counters-ratio-chart-is-empty"><em>Counters ratio chart is empty</em></h4>
+<p>You have to turn on counter ratio chart for each of your trades counters. See the chart pictogram next to trades counters settings.
+Site is not loading or 502 bad gateway error page.
+Check TC twitter account if there’s no server maintenance. Otherwise report it please on Discord channel “bug reports”.</p>
 
-<figure data-uk-lightbox="animation: slide">
-    <a class="uk-inline" href="http://localhost:4000/assets/posts/image1.png" caption="Image in lightbox">
-        <img src="http://localhost:4000/assets/posts/image1.png" alt="Alt for image" />
-        <div class="uk-position-center">
-            <span data-uk-overlay-icon=""></span>
-        </div>
-    </a>
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Image in lightbox</span></figcaption>
-</figure>
+<h4 id="the-site-is-blank"><em>The site is blank</em></h4>
+<p>See the issue above. If it’s neither server crash or maintenance and TC is not working in incognito mode, then you have probably old version of browser. TC is built on top of the latest web technology. Upgrade your browser. in order to get the best experience
+An alert about  timing popped up. What shall I do about if?
+Check your clock time (system time). Toggle on and off the automatic system time just to make sure the in-app timing processing is correct.</p>
 
-<p>Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.</p>
+<h4 id="bitfinex-order-book-is-empty-above-10k"><em>Bitfinex order book is empty above 10k.</em></h4>
+<p>Bitfinex handles orderbook precision differently than other exchanges therefore the orderbook can look empty or buggy during a order transition - 1s-&gt;10s-&gt;100s-&gt;1000s…. Orderbook will readjust its precision once the price is near the limit price.
+Site is not loading or 502 bad gateway error page.
+Check TC twitter account if there’s no server maintenance. Otherwise report it please on Discord channel “bug reports”.</p>
 
-<h2 id="example-of-code-block">Example Of Code Block</h2>
-<p>In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<h4 id="hotkeys-are-not-working"><em>Hotkeys are not working.</em></h4>
+<p>Hotkey are disabled when your chat box or scripting module is active/open.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/assets/css/main.css"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"shortcut icon"</span> <span class="na">type=</span><span class="s">"image/png"</span> <span class="na">href=</span><span class="s">"/assets/img/favicon.png"</span> <span class="nt">&gt;</span>
-  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/assets/js/main.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-</code></pre>
-</div>
+<h4 id="site-layout-is-different-than-in-your-videos-how-do-i-get-orderbook-next-to-chart"><em>Site layout is different than in your videos. How do I get orderbook next to chart?</em></h4>
+<p>Your screen resolution or window size is probably too small. You can also try to decrease site zoom.  For chrome users:</p>
 
-<h2 id="text-and-quote">Text and Quote</h2>
-<p>Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.</p>
+<p><a href="https://support.google.com/chrome/answer/96810?hl=en" target="_blank">https://support.google.com/chrome/answer/96810?hl=en</a></p>
 
-<blockquote>
-  <p>Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet</p>
-</blockquote>
+<h4 id="i-dont-see-counters-ratio-chart-on-mobile-phone"><em>I don’t see counters ratio chart on mobile phone</em></h4>
+<p>Counters ratio chart is hidden for mobile devices as a part of the performance optimization.</p>
 
-<p>In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<h4 id="why-i-cant-filter-out-some-trades-counters-by-volume"><em>Why I can’t filter out some trades counters by volume?</em></h4>
+<p>Volume filter of trades counters is limited for intervals less than 60 minutes.</p>
 
-<p>Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.</p>
+<h4 id="the-last-candle-is-few-hours-old"><em>The last candle is few hours old</em></h4>
+<p>Report it in chat box or on Discord. Some pairs/markets data feeds are not stable yet.</p>
+
+<h4 id="cant-scroll-more-than-a-few-weeksmonths-back"><em>Can’t scroll more than a few weeks/months back</em></h4>
+<p>TensorCharts is currently showing only data since each market was connected to server. More data will downloaded in the future for exchanges which allow to download tick history</p>
+
+<h4 id="can-i-copy-settings-from-one-pair-to-another"><em>Can I copy settings from one pair to another?</em></h4>
+<p>Not at this moment. I should be possible soon with user accounts.</p>
 
                         <div class="share uk-text-center">
-    <a href="https://twitter.com/intent/tweet?text=Errors&url=http://localhost:4000/docs/errors/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    <a href="https://twitter.com/intent/tweet?text=F.A.Q. and Errors&url=http://localhost:4000/docs/errors/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
     <a  class="uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2Ferrors%2F" rel="nofollow" target="_blank" title="Share on Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
 </div>
 
@@ -379,11 +390,14 @@
 
   
   
+
+  
+  
     <ul class="uk-pagination uk-margin-top">
           
             
             
-            <li><a class="hvr-back" href="/docs/faq/">&larr; Previous</a></li>
+            <li><a class="hvr-back" href="/docs/contributors/">&larr; Previous</a></li>
           
           
 

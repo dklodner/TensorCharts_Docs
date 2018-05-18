@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Errors
-subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+title: F.A.Q. and Errors
+subtitle: 
 author:
 ---
 
@@ -10,36 +10,47 @@ author:
 * TOC
 {:toc}
 
-Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
+#### *Can’t see the main chart*
+Try open up TC in incognito mode. If it helps then the problem is in browser’s localStorage. You can follow this guide on how to clear your localStorage. Be aware it deletes your TC settings and custom scripts. 
 
-Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
 
-## Image Lightbox Example
-Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
+<a href="https://superuser.com/a/655198" target="_blank">https://superuser.com/a/655198</a>
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+#### *Counters ratio chart is empty*
+You have to turn on counter ratio chart for each of your trades counters. See the chart pictogram next to trades counters settings.
+Site is not loading or 502 bad gateway error page.
+Check TC twitter account if there’s no server maintenance. Otherwise report it please on Discord channel “bug reports”.
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
+#### *The site is blank*
+See the issue above. If it’s neither server crash or maintenance and TC is not working in incognito mode, then you have probably old version of browser. TC is built on top of the latest web technology. Upgrade your browser. in order to get the best experience
+An alert about  timing popped up. What shall I do about if?
+Check your clock time (system time). Toggle on and off the automatic system time just to make sure the in-app timing processing is correct.
 
-## Example Of Code Block
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+#### *Bitfinex order book is empty above 10k.*
+Bitfinex handles orderbook precision differently than other exchanges therefore the orderbook can look empty or buggy during a order transition - 1s->10s->100s->1000s.... Orderbook will readjust its precision once the price is near the limit price.
+Site is not loading or 502 bad gateway error page.
+Check TC twitter account if there’s no server maintenance. Otherwise report it please on Discord channel “bug reports”.
 
-```html
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/img/favicon.png" | relative_url }}" >
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-</head>
-```
+#### *Hotkeys are not working.*
+Hotkey are disabled when your chat box or scripting module is active/open.
 
-## Text and Quote
-Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
+#### *Site layout is different than in your videos. How do I get orderbook next to chart?*
+Your screen resolution or window size is probably too small. You can also try to decrease site zoom.  For chrome users: 
 
-> Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
 
-In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+<a href="https://support.google.com/chrome/answer/96810?hl=en" target="_blank">https://support.google.com/chrome/answer/96810?hl=en</a>
 
-Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.
+#### *I don’t see counters ratio chart on mobile phone*
+Counters ratio chart is hidden for mobile devices as a part of the performance optimization.
+
+#### *Why I can’t filter out some trades counters by volume?*
+Volume filter of trades counters is limited for intervals less than 60 minutes.
+
+#### *The last candle is few hours old*
+Report it in chat box or on Discord. Some pairs/markets data feeds are not stable yet. 
+
+#### *Can’t scroll more than a few weeks/months back*
+TensorCharts is currently showing only data since each market was connected to server. More data will downloaded in the future for exchanges which allow to download tick history 
+
+#### *Can I copy settings from one pair to another?*
+Not at this moment. I should be possible soon with user accounts. 

@@ -27,6 +27,8 @@
 - title: Scripting Module
   docs:
   - scripting
+  - scripts
+  - script_example
 
 - title: Other
   docs:
@@ -37,5 +39,4 @@
 
 - title: Troubleshooting
   docs:
-  - faq
   - errors

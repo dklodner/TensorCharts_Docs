@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Volume profile
-subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+subtitle: 
 author:
 ---
 
@@ -16,9 +16,9 @@ TC calculates its volume profile profile from heatmaps which are much more granu
 
 
 With the volume profile, price follows three core principles:
-1. It bounces off or consolidates around the points of control (PoCs) - the peaks in high value nodes.
-2. It avoids or trends rapidly through low volume “wells”, the valleys in low value nodes.
-3. PoCs attract price; “wells” reject it.
+1. It bounces off or consolidates around the points of control (PoCs) - the peaks in high value nodes
+2. It avoids or trends rapidly through low volume “wells”, the valleys in low value nodes
+3. PoCs attract price; “wells” reject it
 
 ### Current range view
 Current range view is default and recommended setting to display Volume profile. It plots Volume profile visualisation related to the current situation on the currently displayed price chart scale. When you zoom/unzoom chart or switch timeframes, your Volume profile visualisation will be always recalculated to the currently plotted area.
