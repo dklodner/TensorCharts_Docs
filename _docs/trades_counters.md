@@ -43,5 +43,5 @@ Look for an increase in the size of the circles, as the larger ones represent ov
 Click on the chart pictogram button on the desired Trades Counter. Deselect the previously selected counter by clicking on the chart pictogram button again.
 
 <div class="videowrapper">
-<iframe src="http://www.youtube.com/embed/f7iAl1nf-dQ?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+<iframe src="https://www.youtube.com/embed/f7iAl1nf-dQ?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
 </div>
