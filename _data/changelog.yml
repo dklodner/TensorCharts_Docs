@@ -1,5 +1,16 @@
 # Changelog page source
 
+- title: Version 0.1.6
+  label: BETA
+  date:  28.5. 2018
+  list:
+  - screenshot feature with audio comment and mouse tracking
+  - Volume Profile POC, VA, VAH, VAL
+  - server and request time optimized
+  - chart margin for Volume Profile
+  - heatmap colors slightly changed
+  - minor UI changes
+
 - title: Version 0.1.5
   label: BETA
   date:  17.5. 2018
