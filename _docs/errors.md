@@ -23,12 +23,14 @@ Check TC twitter account if there’s no server maintenance. Otherwise report it
 
 #### *The site is blank*
 See the issue above. If it’s neither server crash or maintenance and TC is not working in incognito mode, then you have probably old version of browser. TC is built on top of the latest web technology. Upgrade your browser. in order to get the best experience
-An alert about  timing popped up. What shall I do about if?
+
+#### *An alert about  timing popped up. What shall I do about if?*
 Check your clock time (system time). Toggle on and off the automatic system time just to make sure the in-app timing processing is correct.
 
 #### *Bitfinex order book is empty above 10k.*
 Bitfinex handles orderbook precision differently than other exchanges therefore the orderbook can look empty or buggy during a order transition - 1s->10s->100s->1000s.... Orderbook will readjust its precision once the price is near the limit price.
-Site is not loading or 502 bad gateway error page.
+
+#### *Site is not loading or 502 bad gateway error page.*
 Check TC twitter account if there’s no server maintenance. Otherwise report it please on Discord channel “bug reports”.
 
 #### *Hotkeys are not working.*
