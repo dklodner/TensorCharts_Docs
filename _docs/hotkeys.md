@@ -19,7 +19,8 @@ Hotkeys can be a powerful tool in TensorCharts. Learn them and save a lot of tim
 | V       | **V**olume Profile                |
 | X       | Fi**x**ed range Volume Profile    |
 | G       | Lar**g**e Trades Tracker          |
-| SPACE   | Start/Stop orderbook counter  |
+| I       | **I**nfo/Hotkeys Panel            |
+| SPACE   | Start/Stop orderbook counter      |
 | L       | **L**ine                          |
 | F       | **F**ibonacci Retracements        |
 | Y       | Ra**y**line                       |
