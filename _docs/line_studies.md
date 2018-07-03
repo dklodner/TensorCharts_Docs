@@ -42,5 +42,10 @@ Simple and exponential moving averages in TensorCharts can produce crossovers wi
 You can’t customize colors of each line, however notice the width of the lines. The higher the period is, the wider the line gets.
 
 ### Cumulative Volume Delta - CVD
+Line chart showing volume change of buy/sell volume delta. Interval of CVD defines moving window of cumulation. 0 interval means no moving window, it starts accumulating from the beginning. More about CVD in the following video.
+
+<div class="videowrapper">
+<iframe src="https://www.youtube.com/embed/gj-zxO-ZnSU?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+</div>
 
 
