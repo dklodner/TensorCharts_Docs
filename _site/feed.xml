@@ -1,421 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-03T15:34:59+02:00</updated><id>http://localhost:4000/</id><title type="html">TensorCharts Manual</title><subtitle>Documentation and tutorials about TensorCharts.com</subtitle><author><name>TensorCharts</name></author><entry><title type="html">Getting a JavaScript console error</title><link href="http://localhost:4000/post7/" rel="alternate" type="text/html" title="Getting a JavaScript console error" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post7</id><content type="html" xml:base="http://localhost:4000/post7/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-02T11:20:56+02:00</updated><id>http://localhost:4000/</id><title type="html">TensorCharts Manual</title><subtitle>Documentation and tutorials about TensorCharts.com</subtitle><author><name>TensorCharts</name></author><entry><title type="html">Paid plans coming to TensorCharts</title><link href="http://localhost:4000/paid-plans-v01/" rel="alternate" type="text/html" title="Paid plans coming to TensorCharts" /><published>2018-08-02T00:00:00+02:00</published><updated>2018-08-02T00:00:00+02:00</updated><id>http://localhost:4000/paid-plans-v01</id><content type="html" xml:base="http://localhost:4000/paid-plans-v01/">&lt;p&gt;It’ll be almost  a year since the first prototype of TensorCharts (&lt;strong&gt;TC&lt;/strong&gt;) was released. Now it’s time to move TC to another phase and with your help, create the best trading platform for crypto and beyond.&lt;/p&gt;
 
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+&lt;p&gt;Monetization has always been a pain point for me. I love building products, but thinking about pricing, paid plans, upselling and what not is killing me. But it needs to be done. Great products don’t come for free.&lt;/p&gt;
 
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+&lt;h3 id=&quot;pricing-data&quot;&gt;PRICING DATA&lt;/h3&gt;
+&lt;p&gt;Few days ago, we ran a survey out of  which we gathered hundreds of responses on customer satisfaction and value based price sensitivity (Van Westendorp methodology). I will reveal the complete results of the survey in the upcoming weeks, but let’s focus on price related questions for now, we asked:&lt;/p&gt;
+
+&lt;p&gt;(Too expensive)
+&lt;br /&gt;
+&lt;em&gt;At what price would you think TC to be so expensive that you would not consider buying it?&lt;/em&gt; 
+&lt;br /&gt;
+(Too cheap) 	
+&lt;br /&gt;
+&lt;em&gt;At what price would you think TC to be so cheap that you would question the quality?&lt;/em&gt; 
+&lt;br /&gt;
+(Expensive/High Side) 
+&lt;br /&gt;
+&lt;em&gt;At what price would you think TC is starting to get expensive, but you would still consider it?&lt;/em&gt; 
+&lt;br /&gt;
+(Good Value)
+&lt;br /&gt;
+&lt;em&gt;At what price would you think TC to be a bargain—a great buy for the money?&lt;/em&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to the great TC community, we were able to collect statistically significant data. Some answers were filtered/removed if:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“high side” was greater than “too expensive”&lt;/li&gt;
+  &lt;li&gt;“too expensive” was less than 3 dollars (outliers, don’t see value in TC)&lt;/li&gt;
+  &lt;li&gt;“too expensive” was greater than 150 dollars (outliers, top 99 percentile)&lt;/li&gt;
+  &lt;li&gt;“good value” less or equal to 0&lt;/li&gt;
+  &lt;li&gt;incomplete answers&lt;/li&gt;
+  &lt;li&gt;delete “too cheap” column (not useful for a webapp)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I won’t dive into the specifics of Van Westendorp methodology, but the result was quite clear. Intersections of each category define optimal price range.&lt;/p&gt;
 
 &lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/tcPriceSensitivity.png&quot; caption=&quot;Van Westendorp price analysis&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/posts/tcPriceSensitivity.png&quot; alt=&quot;TensorCharts Price sensitivity&quot; /&gt;
         &lt;div class=&quot;uk-position-center&quot;&gt;
             &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
         &lt;/div&gt;
     &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Van Westendorp price analysis&lt;/span&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+&lt;p&gt;TensorCharts optimal price lies in between $20 and $30 per month. About 35% of users would find $20 a “good value” and it would still be an acceptable price for 65%.&lt;/p&gt;
 
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+&lt;h3 id=&quot;no-price-fits-all&quot;&gt;NO PRICE FITS ALL&lt;/h3&gt;
+&lt;p&gt;In the last 8 months, I’ve spent hours talking to you, users of TensorCharts and realized crypto traders are a very diverse group of people. Some very wealthy, long-term profitable, on the other hand most of you struggling or losing great amount of money. I do believe TC can help people see unseen and change the way they look at trading.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;It’s hard to justify $20 per month for those losing though, even if it helps them get out of their losing streak. That’s why we tried to come up with a business model which wouldn’t disqualify newcomers or losing traders.&lt;/p&gt;
 
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+&lt;p&gt;We played quite a bit with the idea of fully customizable TC, where you would pay very low starting fee and only pay few cents for each feature you selected. This way, you could test all features without paying a high priced full featured plan. But it felt too complicated, with too many options leading to decision paralysis.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h3 id=&quot;paid-plans-v01&quot;&gt;PAID PLANS v0.1&lt;/h3&gt;
+&lt;p&gt;We ended up with a completely different and also not very common pricing model. I’ve always loved Spotify pricing with its free, premium and family plan and that’s where we got the inspiration.&lt;/p&gt;
 
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+&lt;p&gt;TensorCharts will offer a &lt;strong&gt;FREE&lt;/strong&gt; plan, with no advanced features, but you’ll get the order flow experience. Newcomers will be able to see trades and orderbook heatmaps. If they decide to move their game to another level, they can choose from two paid plans, &lt;strong&gt;PREMIUM ($18)&lt;/strong&gt; and &lt;strong&gt;TEAM ($8 per user)&lt;/strong&gt;. You’ll get all advanced features and fast/good data update rate in both plans. In TEAM, you can &lt;em&gt;save more than 55%&lt;/em&gt; if you find 4 more traders for your team, compared to PREMIUM model.&lt;/p&gt;
 
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><category term="featured" /><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Selecting the right fonts and colors</title><link href="http://localhost:4000/post63/" rel="alternate" type="text/html" title="Selecting the right fonts and colors" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post63</id><content type="html" xml:base="http://localhost:4000/post63/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
+&lt;p&gt;If you look again at the price sensitivity chart, 83% of users think &lt;strong&gt;$8&lt;/strong&gt; is a “good value”.  Also according to our survey, 68% of users believe TC is better than competitors (25% thinks we are equal) but $8 is way under any other competitor out there.&lt;/p&gt;
 
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+&lt;p&gt;Maybe we are fools, but it feels just right at this moment.&lt;/p&gt;
 
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+&lt;h3 id=&quot;quick-overview&quot;&gt;QUICK OVERVIEW&lt;/h3&gt;
 
 &lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/paid_plans_overview.png&quot; caption=&quot;Paid plans quick overview&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/posts/paid_plans_overview.png&quot; alt=&quot;Paid plans quick overview&quot; /&gt;
         &lt;div class=&quot;uk-position-center&quot;&gt;
             &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
         &lt;/div&gt;
     &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Paid plans quick overview&lt;/span&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Design tips for choosing great images</title><link href="http://localhost:4000/post62/" rel="alternate" type="text/html" title="Design tips for choosing great images" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post62</id><content type="html" xml:base="http://localhost:4000/post62/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Upgrading to paid service</title><link href="http://localhost:4000/post61/" rel="alternate" type="text/html" title="Upgrading to paid service" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post61</id><content type="html" xml:base="http://localhost:4000/post61/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Purchasing domain name and DNS setup</title><link href="http://localhost:4000/post60/" rel="alternate" type="text/html" title="Purchasing domain name and DNS setup" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post60</id><content type="html" xml:base="http://localhost:4000/post60/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Using Private Browsing or Incognito mode</title><link href="http://localhost:4000/post6/" rel="alternate" type="text/html" title="Using Private Browsing or Incognito mode" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post6</id><content type="html" xml:base="http://localhost:4000/post6/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Accepted currencies for product billing</title><link href="http://localhost:4000/post5/" rel="alternate" type="text/html" title="Accepted currencies for product billing" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post5</id><content type="html" xml:base="http://localhost:4000/post5/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><category term="featured" /><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Cancelling a website subscription</title><link href="http://localhost:4000/post4/" rel="alternate" type="text/html" title="Cancelling a website subscription" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post4</id><content type="html" xml:base="http://localhost:4000/post4/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><category term="featured" /><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Updating your billing credit card</title><link href="http://localhost:4000/post3/" rel="alternate" type="text/html" title="Updating your billing credit card" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post3</id><content type="html" xml:base="http://localhost:4000/post3/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Understanding company billing and accounts</title><link href="http://localhost:4000/post2/" rel="alternate" type="text/html" title="Understanding company billing and accounts" /><published>2017-05-25T00:00:00+02:00</published><updated>2017-05-25T00:00:00+02:00</updated><id>http://localhost:4000/post2</id><content type="html" xml:base="http://localhost:4000/post2/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
-
-&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
-
-&lt;h2 id=&quot;image-lightbox-example&quot;&gt;Image Lightbox Example&lt;/h2&gt;
-&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
-
-&lt;figure data-uk-lightbox=&quot;animation: slide&quot;&gt;
-    &lt;a class=&quot;uk-inline&quot; href=&quot;http://localhost:4000/assets/posts/image1.png&quot; caption=&quot;Image in lightbox&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/posts/image1.png&quot; alt=&quot;Alt for image&quot; /&gt;
-        &lt;div class=&quot;uk-position-center&quot;&gt;
-            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-of-code-block&quot;&gt;Example Of Code Block&lt;/h2&gt;
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/main.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/img/favicon.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/main.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;text-and-quote&quot;&gt;Text and Quote&lt;/h2&gt;
-&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
-
-&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;</content><author><name>John Black</name></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry></feed>
+&lt;p&gt;For &lt;strong&gt;full overview&lt;/strong&gt;, you can check out this link:
+&lt;a class=&quot;link&quot; href=&quot;https://docs.google.com/spreadsheets/d/1lLV9o4i3JzcW1oB5qLayphra22SPWGyLtyfO5Ef9p8I/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;https://docs.google.com/spreadsheets/d/1lLV9o4i3JzcW1oB5qLayphra22SPWGyLtyfO5Ef9p8I/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;final-notes&quot;&gt;FINAL NOTES&lt;/h3&gt;
+&lt;p&gt;We’ve tried really hard to come up with an affordable yet still financially sustainable business model which won’t limit newcomers or losing traders. I would love to hear your thoughts, pricing is an ongoing process and we welcome any suggestions, input or ideas. 
+You can contact me at  &lt;a class=&quot;link&quot; href=&quot;mailto:david@tensorcharts.com&quot; target=&quot;_blank&quot;&gt;david@tensorcharts.com&lt;/a&gt; or via 
+&lt;a class=&quot;link&quot; target=&quot;_blank&quot; href=&quot;https://discord.gg/3uE5Rr7&quot;&gt;Discord&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Payment processing and paid plans will be implemented in the next 2-3 weeks, supporting crypto payments only.&lt;/p&gt;
+
+&lt;p&gt;Have a good one,
+&lt;br /&gt;
+David.&lt;/p&gt;</content><author><name>David</name></author><category term="pricing" /><summary type="html">It’ll be almost a year since the first prototype of TensorCharts (TC) was released. Now it’s time to move TC to another phase and with your help, create the best trading platform for crypto and beyond.</summary></entry></feed>
