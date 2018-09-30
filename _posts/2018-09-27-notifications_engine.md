@@ -43,7 +43,7 @@ AND 2min_large_trades > 400
 
 
 
-Three best answers of the following survey will **win 1 month of PREMIUM plan** (ends 30.9.2018)
+Three best answers of the following survey will **win 1 month of PREMIUM plan** (ends 1.10.2018)
 
 <a class="link" href="https://goo.gl/forms/7UBVmTJhf84PXzQj1" target="_blank">https://goo.gl/forms/7UBVmTJhf84PXzQj1</a>
 <br>
