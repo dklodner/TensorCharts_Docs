@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-27T16:13:23+02:00</updated><id>http://localhost:4000/</id><title type="html">TensorCharts Manual</title><subtitle>Documentation and tutorials about TensorCharts.com</subtitle><author><name>TensorCharts</name></author><entry><title type="html">Notification engine and TC alerts</title><link href="http://localhost:4000/notification_engine/" rel="alternate" type="text/html" title="Notification engine and TC alerts" /><published>2018-09-27T00:00:00+02:00</published><updated>2018-09-27T00:00:00+02:00</updated><id>http://localhost:4000/notification_engine</id><content type="html" xml:base="http://localhost:4000/notification_engine/">&lt;p&gt;It’s been a rough week, but we made it through. The roll-out of paid subscriptions and bug fixing took a few days, update of websocket servers, couple of sleepless nights but your support exceeded my expectations and I would like to thank you for that.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-09T01:29:35+02:00</updated><id>http://localhost:4000/</id><title type="html">TensorCharts Manual</title><subtitle>Documentation and tutorials about TensorCharts.com</subtitle><author><name>TensorCharts</name></author><entry><title type="html">TC Referral program</title><link href="http://localhost:4000/referral_program/" rel="alternate" type="text/html" title="TC Referral program" /><published>2018-10-09T00:00:00+02:00</published><updated>2018-10-09T00:00:00+02:00</updated><id>http://localhost:4000/referral_program</id><content type="html" xml:base="http://localhost:4000/referral_program/">&lt;p&gt;&lt;strong&gt;SUMMARY&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;login and go to &lt;a class=&quot;link&quot; href=&quot;https://tensorcharts.com/u/settings/referrals&quot; target=&quot;_blank&quot;&gt;referrals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;you get a reward for each payment your referred users make&lt;/li&gt;
+  &lt;li&gt;percentage cut depends on two components:
+    &lt;ol&gt;
+      &lt;li&gt;number of referred users&lt;/li&gt;
+      &lt;li&gt;educational material&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;percentage for number of referred users varies from 5% to 15%.:
+    &lt;ul&gt;
+      &lt;li&gt;&amp;lt;50 paying referred users = 5%&lt;/li&gt;
+      &lt;li&gt;50-100 users = 10%&lt;/li&gt;
+      &lt;li&gt;100+ users = 15%&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;quality of educational material percentage varies from 0-10%
+    &lt;ul&gt;
+      &lt;li&gt;0% just a mention, no added value (shill)&lt;/li&gt;
+      &lt;li&gt;5% occasional blog posts / video tutorials&lt;/li&gt;
+      &lt;li&gt;10% high quality content or regular promotion with educational value&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;contact me at david@tensorcharts.com if you want to increase your educational quality percentage&lt;/li&gt;
+  &lt;li&gt;rewards can be either paid out or transferred to subscription credits and used for purchase of TC subscription plans&lt;/li&gt;
+  &lt;li&gt;only $300 or more reward payouts&lt;/li&gt;
+  &lt;li&gt;users engaging scammy techniques for rewards, will be banned from the referral program&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;TensorCharts isn’t easy to understand at first glance and a lot of newcomers feel overwhelmed by the amount of unusual tools and information.&lt;/p&gt;
+
+&lt;p&gt;That’s the reason for a two-part referral program, to encourage  users  to create quality educational content. Users who better understand TC also tend to stick to TensorCharts longer, thus you get a greater reward.&lt;/p&gt;
+
+&lt;p&gt;Once you get your referral link, you can append the “?r=XX” to any link pointing to TC.&lt;/p&gt;
+
+&lt;p&gt;I decided not to offer a discount for referral links since it only leads to users creating new accounts before each purchase. Users must understand the value of TC and don’t be incentivized by discounts and special offers.&lt;/p&gt;
+
+&lt;p&gt;I would also like to ask you not to employ any scammy techniques or mass emailing without added value. Serious cases of such behavior would lead to banning your account.&lt;/p&gt;
+
+&lt;p&gt;Thanks for spreading the word.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Have a good one,
+&lt;br /&gt;
+David.&lt;/p&gt;</content><author><name>David</name></author><category term="referral" /><summary type="html">SUMMARY login and go to referrals you get a reward for each payment your referred users make percentage cut depends on two components: number of referred users educational material percentage for number of referred users varies from 5% to 15%.: &amp;lt;50 paying referred users = 5% 50-100 users = 10% 100+ users = 15% quality of educational material percentage varies from 0-10% 0% just a mention, no added value (shill) 5% occasional blog posts / video tutorials 10% high quality content or regular promotion with educational value contact me at david@tensorcharts.com if you want to increase your educational quality percentage rewards can be either paid out or transferred to subscription credits and used for purchase of TC subscription plans only $300 or more reward payouts users engaging scammy techniques for rewards, will be banned from the referral program</summary></entry><entry><title type="html">Notification engine and TC alerts</title><link href="http://localhost:4000/notifications_engine/" rel="alternate" type="text/html" title="Notification engine and TC alerts" /><published>2018-09-27T00:00:00+02:00</published><updated>2018-09-27T00:00:00+02:00</updated><id>http://localhost:4000/notifications_engine</id><content type="html" xml:base="http://localhost:4000/notifications_engine/">&lt;p&gt;It’s been a rough week, but we made it through. The roll-out of paid subscriptions and bug fixing took a few days, update of websocket servers, couple of sleepless nights but your support exceeded my expectations and I would like to thank you for that.&lt;/p&gt;
 
 &lt;p&gt;TensorCharts has been stable as never before for the last 4 days so I took some time to review the survey from August and ended up with a to-do list containing 100 features/items.&lt;/p&gt;
 
@@ -33,7 +81,7 @@ AND 2min_large_trades &amp;gt; 400
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Three best answers of the following survey will &lt;strong&gt;win 1 month of PREMIUM plan&lt;/strong&gt; (ends 30.9.2018)&lt;/p&gt;
+&lt;p&gt;Three best answers of the following survey will &lt;strong&gt;win 1 month of PREMIUM plan&lt;/strong&gt; (ends 1.10.2018)&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;link&quot; href=&quot;https://goo.gl/forms/7UBVmTJhf84PXzQj1&quot; target=&quot;_blank&quot;&gt;https://goo.gl/forms/7UBVmTJhf84PXzQj1&lt;/a&gt;
 &lt;br /&gt;
