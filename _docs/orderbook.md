@@ -25,7 +25,7 @@ Only available for Bitfinex.
 Precision allows you to see the order book in several ways. You can zoom(+) waiting limit orders to see every single price level detail or unzoom(-) to let TensorCharts count them together on an aggregated scale basis - which is more practical for most traders.
 
 ### Ask/bid side
-Ask limit orders are pending limit order to buy (red colour) and bid limit orders are pending limit orders to sell (green colour). The Order book aggregates them to a vertical row and divides them by the current price level and different colours.
+Ask limit orders are pending limit orders to sell (red colour) and bid limit orders are pending limit orders to buy (green colour). The Order book aggregates them to a vertical row and divides them by the current price level.
 
 ### Buy/Sell counter
 Measure volume of buyers and sellers for every price level in real time. Have a look at the most attractive zones for both buyers and sellers and quickly spot zones where whales tend to be active.
